@@ -1,0 +1,44 @@
+{
+    "ejemplos_json":{
+        "Descripcion":"Ejemplo de un documento JSON con varios tipos de datos y estructuras anidadas",
+        "Datos":{
+            "Nombre":"Jitzya Sophia",
+            "Edad":16,
+            "Activo":true,
+            "Hobbies":["Bailar","Leer","Cocinar"],
+            "dirección":{
+                "calle":"Panuco",
+                "ciudad":"El carmen",
+                "pais":"Mexico"
+            },
+
+            "contacto":null
+        },
+        "nota":"Este ejemplo muestra como JSON puede representar diferentes tipos de datos y estructuras complejas"
+    },
+
+    "ejemplo_documento_mongodb":{
+        "descripción": "Ejemplo de un documento tipico en MongoDb, que utiliza BSON internamente",
+        "datos":{
+            "_id":"56452895756",
+            "producto":"Iphone 16",
+            "precio":15000.00,
+            "disponinle":true,
+            "categorias": ["electronica", "moviles", "smartphones"],
+            "escpecificaciones":{
+                "procesador": "Exynos 21000",
+                "ram": "8gb",
+                "almacenamiento": "128gb",
+                "pantalla": "6.2 pulgadas",
+                "bateria": "4000mAh"
+            },
+            "fecha_creacion": "2026-02-29T10:00:00Z",
+              "reviews":[
+                {
+                    "usuario": "Sophia16",
+                    "comentario": "Me encanto la cámara"
+                }
+              ]
+        }
+    }
+}
